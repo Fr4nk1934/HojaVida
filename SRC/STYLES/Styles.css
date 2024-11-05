@@ -1,0 +1,209 @@
+ul {
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+}
+
+/* General */
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Encabezado */
+header.Encabezado {
+    background-color: #ffffff;
+    color: #1f4e79;
+    padding: 20px;
+    text-align: left;
+}
+
+header.Encabezado h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+header.Encabezado h4 {
+    font-size: 1.2em;
+    font-weight: normal;
+    margin-top: 5px;
+    color: #555;
+}
+
+/* Estructura de la página */
+main.Cuerpo {
+    display: flex;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+main.Cuerpo table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Columna izquierda */
+main.Cuerpo td:first-child {
+    width: 30%;
+    padding-right: 20px;
+    border-right: 1px solid #ddd;
+}
+
+main.Cuerpo ul {
+    list-style: none;
+    padding: 0;
+}
+
+main.Cuerpo h5 {
+    font-size: 1.1em;
+    color: #1f4e79;
+    margin-bottom: 10px;
+}
+
+/* Habilidades Profesionales */
+.Habilidades li {
+    margin: 5px 0;
+    padding-left: 10px; 
+    position: relative;
+}
+
+/* Añadir un pequeño desplazamiento del círculo */
+.Habilidades li::before {
+    content: "•"; 
+    color: #1f4e79; 
+    font-weight: bold;
+    position: absolute;
+    left: 0; 
+}
+
+/* Columna derecha */
+main.Cuerpo td:last-child {
+    width: 70%;
+    padding-left: 20px;
+}
+
+h4 {
+    font-size: 1.2em;
+    color: #1f4e79;
+    margin-bottom: 5px;
+}
+
+/* Experiencia Laboral y Formación */
+main.Cuerpo p {
+    margin: 5px 0;
+    font-size: 0.95em;
+    color: #333;
+}
+
+/* Referencias Laborales */
+main.Cuerpo ul li {
+    margin-bottom: 10px;
+}
+
+/* Pie de Página */
+footer.PiePagina {
+    background-color: #ffffff;
+    color: #333;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.9em;
+    border-top: 1px solid #ddd;
+}
+
+footer.PiePagina table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+footer.PiePagina h4 {
+    margin-bottom: 5px;
+}
+
+/* Sección de contacto */
+footer.PiePagina form {
+    margin: 10px 0;
+}
+
+/* Estilo para la imagen de perfil */
+img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px; /* Centra la imagen y agrega espacio debajo */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el formulario */
+#contactForm {
+    max-width: 400px;
+    margin: 0 auto; /* Centra el formulario en la página */
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Alinea el contenido a la izquierda */
+}
+
+/* Estilos para los elementos del formulario */
+#contactForm ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contactForm li {
+    margin-bottom: 15px;
+}
+
+#contactForm label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contactForm input[type="text"],
+#contactForm input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Estilos para el botón */
+#contactForm button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    color: #ffffff;
+    background-color: #1f4e79;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center; /* Alinea el texto del botón al centro */
+}
+
+#contactForm button:hover {
+    background-color: #163d5d;
+}
+
+.PiePagina {
+    text-align: left; /* Alinear todo el contenido a la izquierda */
+}
+
+.PiePagina ul {
+    list-style-type: none; /* Eliminar puntos de la lista */
+    padding: 0; /* Eliminar padding por defecto */
+}
+
+.PiePagina ul li {
+    margin-bottom: 5px; /* Espacio entre elementos de la lista */
+}
